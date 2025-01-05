@@ -1,5 +1,5 @@
 locaL scripts = {
-  [118688242561353] = s
+  [90192874177359] = https://raw.githubusercontent.com/Oflice/OfliceHub/refs/heads/main/Scripts/oldttdgame.lua
 }
 
 return scripts
