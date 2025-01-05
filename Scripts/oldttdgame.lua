@@ -2,6 +2,14 @@ local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 
 local Window = OrionLib:MakeWindow({Name = "Ottd Script", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
 
+local Tabinfo = Window:MakeTab({
+	Name = "Info",
+	Icon = "",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("Your Executor: " .. identifyexecutor())
+
 local Tab = Window:MakeTab({
 	Name = "Spawn",
 	Icon = "",
