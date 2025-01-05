@@ -27,8 +27,9 @@ local btn = Tab:AddButton({
             OrionLib:Destroy()
             local placeeeif = game.PlaceId
                 
-            local url = "https://raw.githubusercontent.com/Oflice/OfliceHub/main/Scripts.lua?" .. placeeeif
-            loadstring(game:HttpGet(url, true))()
+            local url = "https://raw.githubusercontent.com/Oflice/OfliceHub/main/Scripts.lua"
+            local a = url[placeeeif]
+            loadstring(game:HttpGet(a, true))()
         end    
     end    
 })
