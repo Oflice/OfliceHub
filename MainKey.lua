@@ -12,8 +12,8 @@ local Tab = Window:MakeTab({
 })
 
 local key = Tab:AddTextbox({
-    Name = "Textbox",
-    Default = "Key Here",
+    Name = "Key Here",
+    Default = "",
     TextDisappear = true,
     Callback = function(Value)
         _G.cKey = Value
