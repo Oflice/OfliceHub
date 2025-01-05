@@ -26,9 +26,9 @@ local btn = Tab:AddButton({
         if _G.cKey == "OfliceHub#~" then
             OrionLib:Destroy()
             local placeeeif = game.PlaceId
-
-            local scrget = https://raw.githubusercontent.com/Oflice/OfliceHub/refs/heads/main/Scripts.lua[placeeeif]
-            loadstring(game:HttpGet(scrget, true))()
+                
+            local url = "https://raw.githubusercontent.com/Oflice/OfliceHub/main/Scripts.lua?" .. placeeeif
+            loadstring(game:HttpGet(url, true))()
         end    
     end    
 })
