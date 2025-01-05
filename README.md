@@ -2,7 +2,7 @@
 
 A powerful and versatile script hub for Roblox.
 
-![Lua Logo](https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg)  
+<img src="https://avatars.githubusercontent.com/u/49996085?s=64&v=4" alt="Luau Logo" width="64" height="64">
 
 ### Load Script
 Copy and paste the following code into your Roblox executor to load Oflice Hub:
