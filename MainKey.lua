@@ -28,7 +28,7 @@ local btn = Tab:AddButton({
             local placeeeif = game.PlaceId
 
             local scrget = https://raw.githubusercontent.com/Oflice/OfliceHub/refs/heads/main/Scripts.lua[placeeeif]
-            loadstring(game:HttpGet(scrget))()
+            loadstring(game:HttpGet(scrget, true))()
         end    
     end    
 })
