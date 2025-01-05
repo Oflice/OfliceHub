@@ -8,7 +8,7 @@ local Tabinfo = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddLabel("Your Executor: " .. identifyexecutor())
+Tabinfo:AddLabel("Your Executor: " .. identifyexecutor())
 
 local Tab = Window:MakeTab({
 	Name = "Spawn",
